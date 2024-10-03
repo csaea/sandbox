@@ -3,9 +3,9 @@
     <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="width: 200px; height: auto;">
 </a>
 
-# The CSAEA JupyterLab Binder Sandbox
+# The CSAEA Jupyter Binder Sandbox
 
-Welcome to the **CSAEA Binder Sandbox**! Here, we provide an "ephemeral coding" environment—think of it as a temporary coding lab where you can experiment without the risk of messing up anything important. When you spin up a JupyterLab server, you’re launching an interactive space right in your browser where you can write, run, and debug code in real time. 
+Welcome to the **CSAEA Jupyter Binder Sandbox**! Here, we provide an "ephemeral coding" environment—think of it as a temporary coding lab where you can experiment without the risk of messing up anything important. When you spin up a JupyterLab server, you’re launching an interactive space right in your browser where you can write, run, and debug code in real time. Depending on your connection, it can take a while to spin up -- so be patient!  
 
 ## Table of Contents
 
@@ -14,13 +14,24 @@ Welcome to the **CSAEA Binder Sandbox**! Here, we provide an "ephemeral coding" 
 - [Lessons Overview](#lessons-overview)
 - [How to Use This Sandbox](#how-to-use-this-sandbox)
 
+Sure! Here are some excellent resources for Python beginners and cheatsheets that you can add to your Markdown file:
+
+---
+
 ## Getting Started
 
-Ready to get coding? Right-click the badge below and open it in a new tab:
+Let's get coding! Right-click the badge below and open it in a new tab or window:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD)
 
-Launching the JupyterLab server can take anywhere from 5 to 20 minutes. Perfect time for a quick mental stretch!
+Launching the JupyterLab server can take a minute, or twenty! A good time to read up on documentation:
+
+- **[Official Python Documentation](https://docs.python.org/3/tutorial/index.html)**: A comprehensive guide to Python, including an official tutorial for beginners.
+- **[Learn Python](https://www.learnpython.org/)**: An interactive platform for learning Python through tutorials and exercises.
+- **[W3Schools Python Tutorial](https://www.w3schools.com/python/)**: A beginner-friendly tutorial that covers the basics of Python with examples.
+- **[Python Cheatsheet](https://www.pythoncheatsheet.org/)**: A well-organized cheatsheet covering various aspects of Python, from syntax to built-in functions.
+
+---
 
 ## Folder Structure
 
@@ -49,11 +60,23 @@ Here’s how we’ve organized the goodies:
 
 ## How to Use This Sandbox
 
-1. Click the **Binder** badge to launch your interactive environment.
-2. Browse through the folders to find lessons that pique your interest.
-3. Use the materials provided for your studies and coding projects.
-4. Feel free to adapt resources as you see fit—after all, good coders are also good tinkerers.
+1. Click the **Binder** badge to launch your interactive JupyterLab environment.
+2. Browse through the folders to find lessons.
+3. Use the content provided for your studies and coding projects.
+
+## What is JupyterLab?
+
+[JupyterLab](https://jupyter.org/) is a powerful, flexible web-based interactive development environment (IDE). With JupyterLab, you can run code in various programming languages, visualize data, and share your work with others.
+
+Key features of JupyterLab include:
+
+- **Interactive Notebooks**: Write and execute code in a notebook format that supports rich text, images, and visualizations.
+- **Multi-file Management**: Organize your files, including notebooks, scripts, and data, all within the same workspace.
+
+For more information about JupyterLab, visit the official [Jupyter website](https://jupyter.org/).
+- **Jupyter Documentation**: Learn more about using JupyterLab with the official [documentation](https://jupyterlab.readthedocs.io/en/stable/).
+- **Community and Support**: Join the [Jupyter community](https://jupyter.org/community) to connect with other users and contributors.
 
 ---
 
-Thank you for visiting the CSAEA Educational Binder Sandbox! Dive in, explore, and enjoy your coding adventure!
+Thank you for visiting the CSAEA Educational Binder Sandbox! Dive in, explore, and enjoy your coding journey!
