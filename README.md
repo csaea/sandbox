@@ -1,3 +1,3 @@
 <a href="https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD" target="_blank">
-    <img src="https://mybinder.org/badge_logo.svg" alt="Binder">
+    <img src="https://mybinder.org/badge_logo.svg" alt="Binder" width="200" height="80">
 </a>
