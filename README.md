@@ -4,6 +4,7 @@
     <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="width: 200px; height: auto;">
 </a>
 
+---
 
 # The CSAEA Sandbox IDE
 
@@ -85,5 +86,3 @@ Binder creates a Docker image of your repository, bundles all the dependencies, 
 ---
 
 Thanks for visiting the CSAEA Educational Binder Sandbox! Take a deep dive, explore, and enjoy the ride.
-
----
