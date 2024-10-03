@@ -14,8 +14,6 @@ Welcome to the **CSAEA Jupyter Binder Sandbox**! Here, we provide an "ephemeral 
 - [Lessons Overview](#lessons-overview)
 - [How to Use This Sandbox](#how-to-use-this-sandbox)
 
-Sure! Here are some excellent resources for Python beginners and cheatsheets that you can add to your Markdown file:
-
 ---
 
 ## Getting Started
