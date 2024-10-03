@@ -2,6 +2,7 @@
     <img src="https://mybinder.org/badge_logo.svg" alt="Binder" style="width: 200px; height: auto;">
 </a>
 
+**Click the badge above to launch Binder.** (Right-click and select "Open link in new tab".)
 
 # CSAEA Binder Sandbox
 
