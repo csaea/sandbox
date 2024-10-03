@@ -1,6 +1,6 @@
 # Educational Binder Sandbox
 
-Welcome to the **Educational Binder Sandbox**! This repository provides a curated collection of lessons from various open-source curriculum sources, designed specifically for students. Each folder contains a unique set of resources tailored for different subjects and grade levels.
+Welcome to the **Educational Binder Sandbox**! This repository provides a curated collection of lessons from various free, online, or open-source curriculum sources, designed specifically for students interested in computer science. Each folder contains a unique set of resources tailored for different computer science subjects.
 
 ## Table of Contents
 
@@ -11,11 +11,9 @@ Welcome to the **Educational Binder Sandbox**! This repository provides a curate
 
 ## Getting Started
 
-To access the Binder environment, click the badge below:
+To access the Binder environment, right-click the badge below and open in a new tab:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD)
-
-⬆️ Right-click the badge to open Binder in a new tab.
 
 ## Folder Structure
 
@@ -23,28 +21,18 @@ The sandbox is organized into the following folders:
 
 ```
 /lessons
-    ├── mathematics
-    │   ├── algebra
-    │   ├── geometry
-    │   └── calculus
-    ├── science
-    │   ├── physics
-    │   ├── chemistry
-    │   └── biology
-    ├── humanities
-    │   ├── history
-    │   └── literature
-    └── arts
-        ├── visual_arts
-        └── music
+    ├── computer_science_principles
+    ├── cybersecurity
+    ├── computer_science_a
+    └── advanced
 ```
 
 ### Folder Descriptions
 
-- **Mathematics**: A collection of engaging lessons covering various topics in math, from basic arithmetic to advanced calculus.
-- **Science**: Exciting materials focused on physics, chemistry, and biology, including experiments and interactive content.
-- **Humanities**: Resources for history and literature that encourage critical thinking and exploration.
-- **Arts**: Creative lessons in visual arts and music, promoting expression and appreciation of different art forms.
+-- **Computer Science Principles**: A collection of engaging lessons designed to introduce the fundamental concepts of computer science, ideal for AP Computer Science Principles.
+- **Cybersecurity**: Lessons that cover essential cybersecurity principles, practices, and tools.
+- **Computer Science A**: Resources focused on programming and problem-solving, tailored for AP Computer Science A.
+- **Advanced**: In-depth resources for students looking to explore advanced topics in computer science, including algorithms, data structures, and software development.
 
 ## Lessons Overview
 
@@ -63,4 +51,4 @@ Each lesson folder contains:
 
 ---
 
-Thank you for visiting the Educational Binder Sandbox! We hope you find these resources helpful in your educational journey.
+Thank you for visiting the Educational Binder Sandbox! We hope you find these resources helpful in your educational journey in computer science.
