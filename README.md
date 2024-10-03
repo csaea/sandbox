@@ -2,23 +2,19 @@
     <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="width: 200px; height: auto;">
 </a>
 
-# The CSAEA Sandbox IDE
+# The CSAEA Sandbox
 
-Welcome to the CSAEA Programming Sandbox, where you get to code in a low-stakes, no-commitment space using JupyterLab and Binder.
-
-Think of it as your personal coding lab, ready for experimentation. 
-
-Once you fire up JupyterLab, you’ll find an interactive coding environment waiting for you right in your browser. It might take a minute to get going—just let it do its thing.
+Welcome to the CSAEA Sandbox, where you can practice low-stakes, ephemeral coding, using JupyterLab and Binder. Note that it will **not** save your work. So think of it as a whiteboard, your personal coding lab, ready for experimentation. Once you fire up the JupyterLab Binder, you’ll find an interactive coding environment waiting for you right in your browser. It might take a minute to get going—just let it do its thing.
 
 ---
 
 ## How to Use This Sandbox
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD)
+
 1. Hit the **Binder** badge to launch your JupyterLab workspace.
 2. Navigate through the folders to find lessons and resources.
 3. Dive into the content with the class, or at your own pace.
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD)
 
 ---
 
