@@ -1,5 +1,5 @@
 <a href="https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD" target="_blank">
-    <img src="https://mybinder.org/badge_logo.svg" alt="Binder" style="width: 200px; height: auto;">
+    <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="width: 200px; height: auto;">
 </a>
 
 # CSAEA Binder Sandbox
