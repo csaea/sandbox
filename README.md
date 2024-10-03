@@ -4,7 +4,7 @@
 
 # CSAEA Binder Sandbox
 
-Welcome to the **CSAEA Binder Sandbox**! This repo gifts a wealth of knowledge aimed toward early programmers on an advanced route. It contains a valuable hub of original lessons, curriculum from cited sources, and links incredibly useful tools, organizations, and sources for CS students of various levels. 
+Welcome to the **CSAEA Binder Sandbox**! This repo offers an in-the-moment coding **environment** to practice your skills. We include a wealth of Computer Science knowledge, from original lessons to online sources. We include useful tools, organizations, and sources for CS students of various levels. 
 
 ## Table of Contents
 
