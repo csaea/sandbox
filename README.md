@@ -12,15 +12,13 @@ Once you fire up JupyterLab, you’ll find an interactive coding environment wai
 
 ## Getting Started
 
-Ready to jump in? Right-click the badge below, open it in a new tab or window, and let the coding begin:
+Ready to jump in? 
+
+Right-click the badge below, open it in a new tab or window, and let the coding begin:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD)
 
----
-
-## Docs 
-
-While you're waiting for JupyterLab to load (it can take anywhere from a minute to a small eternity), you can explore these resources:
+While you're waiting for it to load (it can take anywhere from a minute to a small eternity), explore these resources:
 
 - **[Official Python Documentation](https://docs.python.org/3/tutorial/index.html)**: Python, from the source. Ideal for anyone starting out.
 - **[Learn Python](https://www.learnpython.org/)**: Tutorials and exercises in one neat package.
