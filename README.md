@@ -4,7 +4,7 @@
 
 # CSAEA Binder Sandbox
 
-Welcome to the **CSAEA Binder Sandbox**! This repo offers an in-the-moment coding **environment** to practice your skills. We include a wealth of Computer Science knowledge, from original lessons to online sources. We include useful tools, organizations, and sources for CS students of various levels. 
+Welcome to the **CSAEA Binder Sandbox**! Binder is an "ephemeral coding" environment. You can experiment freely, but any changes you make won't be saved to our repository. This repo offers an in-the-moment coding **environment** to practice your skills. We include a wealth of Computer Science knowledge, from original lessons, online curriculum, and more.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ To access the Binder environment, right-click the badge below and open in a new 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD)
 
-Binder is an "ephemeral coding" environment. You can experiment freely, but any changes you make won't be saved to our repository. 
+This can take 5 - 20 minutes to launch!  
 
 ## Folder Structure
 
