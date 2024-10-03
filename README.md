@@ -3,7 +3,7 @@
     <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="width: 200px; height: auto;">
 </a>
 
-# Welcome to the CSAEA Binder Sandbox!
+# The CSAEA JupyterLab Binder Sandbox
 
 Welcome to the **CSAEA Binder Sandbox**! Here, we provide an "ephemeral coding" environment—think of it as a temporary coding lab where you can experiment without the risk of messing up anything important. When you spin up a JupyterLab server, you’re launching an interactive space right in your browser where you can write, run, and debug code in real time. 
 
