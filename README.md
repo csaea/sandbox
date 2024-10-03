@@ -16,8 +16,6 @@ Welcome to the CSAEA Sandbox, where you can practice low-stakes, ephemeral codin
 2. Navigate through the folders to find lessons and resources.
 3. Dive into the content with the class, or at your own pace.
 
----
-
 It can take anywhere from a minute to a small eternity to load, so check out these links!
 
 - **[Official Python Documentation](https://docs.python.org/3/tutorial/index.html)**: Python, from the source. Ideal for anyone starting out.
