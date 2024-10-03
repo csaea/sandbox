@@ -2,7 +2,7 @@
     <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="width: 200px; height: auto;">
 </a>
 
-### Expect a 5-10 minute wait to start up. 
+#### Expect a 5-10 minute wait to start up. 
 
 # CSAEA Binder Sandbox
 
