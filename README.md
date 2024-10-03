@@ -1,4 +1,6 @@
-# Educational Binder Sandbox
+<a href="https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD" target="_blank" style="display: inline-block; padding: 15px 30px; font-size: 20px; color: white; background-color: #007bff; border-radius: 5px; text-decoration: none; width: 200px; text-align: center;">Quick Launch Binder</a>
+
+# CSAEA Binder Sandbox
 
 Welcome to the **Educational Binder Sandbox**! This repository provides a curated collection of lessons from various free, online, or open-source curriculum sources, designed specifically for students interested in computer science. Each folder contains a unique set of resources tailored for different computer science subjects.
 
