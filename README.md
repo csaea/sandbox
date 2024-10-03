@@ -2,9 +2,6 @@
     <img src="https://mybinder.org/badge_logo.svg" alt="Binder" style="width: 200px; height: auto;">
 </a>
 
-
-**Click the badge above to launch Binder.** (Right-click and select "Open link in new tab".)
-
 # CSAEA Binder Sandbox
 
 Welcome to the **Educational Binder Sandbox**! This repository provides a curated collection of lessons from various free, online, or open-source curriculum sources, designed specifically for students interested in computer science. Each folder contains a unique set of resources tailored for different computer science subjects.
