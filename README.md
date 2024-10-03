@@ -1,8 +1,8 @@
+### Quick Launch
+
 <a href="https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD" target="_blank">
     <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="width: 200px; height: auto;">
 </a>
-
-#### Expect a 5-10 minute wait to launch. 
 
 # CSAEA Binder Sandbox
 
