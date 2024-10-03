@@ -4,7 +4,7 @@
 
 # CSAEA Binder Sandbox
 
-Welcome to the **Educational Binder Sandbox**! This repository provides a curated collection of lessons from various free, online, or open-source curriculum sources, designed specifically for students interested in computer science. Each folder contains a unique set of resources tailored for different computer science subjects.
+Welcome to the **CSAEA Binder Sandbox**! This repo gifts a wealth of knowledge aimed toward early programmers on an advanced route. It contains a valuable hub of original lessons, curriculum from cited sources, and links incredibly useful tools, organizations, and sources for CS students of various levels. 
 
 ## Table of Contents
 
@@ -19,6 +19,8 @@ To access the Binder environment, right-click the badge below and open in a new 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD)
 
+Binder is an "ephemeral coding" environment. You can experiment freely, but any changes you make won't be saved to our repository. 
+
 ## Folder Structure
 
 The sandbox is organized into the following folders:
@@ -26,25 +28,23 @@ The sandbox is organized into the following folders:
 ```
 /lessons
     ├── computer_science_principles
-    ├── cybersecurity
     ├── computer_science_a
-    └── advanced
+    └── advanced_topics
 ```
 
 ### Folder Descriptions
 
--- **Computer Science Principles**: A collection of engaging lessons designed to introduce the fundamental concepts of computer science, ideal for AP Computer Science Principles.
-- **Cybersecurity**: Lessons that cover essential cybersecurity principles, practices, and tools.
+- **Computer Science Principles**: A collection of engaging lessons designed to introduce the fundamental concepts of computer science, ideal for AP Computer Science Principles.
 - **Computer Science A**: Resources focused on programming and problem-solving, tailored for AP Computer Science A.
 - **Advanced**: In-depth resources for students looking to explore advanced topics in computer science, including algorithms, data structures, and software development.
 
-## Lessons Overview
+## Lesson Folders
 
-Each lesson folder contains:
-
-- **Worksheets**: Printable materials for you to complete.
-- **Interactive Activities**: Links to online tools or platforms that facilitate learning.
-- **Assessment Tools**: Quizzes and rubrics to help you evaluate your understanding.
+- **🎯 Activities Zone**: Hands-on tasks designed to reinforce key concepts and skills.
+- **🎮 Game Room**: Interactive games that make learning fun while testing your knowledge.
+- **🛠️ Toolbox**: Links to online tools and platforms that enhance your learning experience.
+- **📝 Challenge Corner**: Bonus challenges and projects to push your understanding further.
+- **📚 Resource Library**: Curated articles, videos, and study guides to support your study efforts.
 
 ## How to Use This Sandbox
 
@@ -55,4 +55,4 @@ Each lesson folder contains:
 
 ---
 
-Thank you for visiting the Educational Binder Sandbox! We hope you find these resources helpful in your educational journey in computer science.
+Thank you for visiting the CSAEA Educational Binder Sandbox! 
