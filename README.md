@@ -1,6 +1,3 @@
-Got it! Here’s a version that strikes a balance between being intelligently funny while maintaining a professional tone:
-
----
 
 <a href="https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD" target="_blank">
     <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="width: 200px; height: auto;">
