@@ -2,8 +2,6 @@
     <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="width: 200px; height: auto;">
 </a>
 
----
-
 # The CSAEA Sandbox IDE
 
 Welcome to the CSAEA Programming Sandbox, where you get to code in a low-stakes, no-commitment space using JupyterLab and Binder.
