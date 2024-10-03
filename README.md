@@ -1,4 +1,7 @@
-<a href="https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD" target="_blank" style="display: inline-block; padding: 15px 30px; font-size: 20px; color: white; background-color: #007bff; border-radius: 5px; text-decoration: none; width: 200px; text-align: center;">Quick Launch Binder</a>
+<a href="https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD" target="_blank">
+    <img src="https://mybinder.org/badge_logo.svg" alt="Binder" style="width: 200px; height: auto;">
+</a>
+
 
 # CSAEA Binder Sandbox
 
