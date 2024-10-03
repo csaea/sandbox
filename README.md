@@ -10,9 +10,13 @@ Think of it as your personal coding lab, ready for experimentation.
 
 Once you fire up JupyterLab, you’ll find an interactive coding environment waiting for you right in your browser. It might take a minute to get going—just let it do its thing.
 
-## Ready to jump in? 
+---
 
-Right click the button below. Open it in a new tab or window.
+## How to Use This Sandbox
+
+1. Hit the **Binder** badge to launch your JupyterLab workspace.
+2. Navigate through the folders to find lessons and resources.
+3. Dive into the content with the class, or at your own pace.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD)
 
@@ -24,14 +28,6 @@ It can take anywhere from a minute to a small eternity to load, so check out the
 - **[Learn Python](https://www.learnpython.org/)**: Tutorials and exercises in one neat package.
 - **[W3Schools Python Tutorial](https://www.w3schools.com/python/)**: An easy introduction to Python with plenty of examples.
 - **[Python Cheatsheet](https://www.pythoncheatsheet.org/)**: A concise but complete Python reference, perfect for quick look-ups.
-
----
-
-## How to Use This Sandbox
-
-1. Hit the **Binder** badge to launch your JupyterLab workspace.
-2. Navigate through the folders to find lessons and resources.
-3. Dive into the content at your own pace—whether you're studying or tinkering with projects.
 
 ---
 
