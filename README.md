@@ -22,6 +22,7 @@ It can take anywhere from a minute to a small eternity to load, so check out the
 - **[Learn Python](https://www.learnpython.org/)**: Tutorials and exercises in one neat package.
 - **[W3Schools Python Tutorial](https://www.w3schools.com/python/)**: An easy introduction to Python with plenty of examples.
 - **[Python Cheatsheet](https://www.pythoncheatsheet.org/)**: A concise but complete Python reference, perfect for quick look-ups.
+- **[Python Challenges](https://pythonprinciples.com/challenges/Capital-indexes/)**: A free list of Python challenges. 
 
 ---
 
