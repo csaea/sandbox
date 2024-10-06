@@ -60,10 +60,6 @@ def calculate_bmi():
 
 ```
 
-Sure! Here’s a segment for common math operators, as well as information on importing the `random` module and the `math` library, all in your style:
-
----
-
 ### Math Operators
 
 Various mathematical operations using these common operators:
