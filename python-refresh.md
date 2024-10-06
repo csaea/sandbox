@@ -6,7 +6,7 @@ Three common data types are strings, integers, and floats.
 
 - **Strings** are sets of characters enclosed in quotation marks. Examples include:
   - `"Super!Password?123"`
-  - `"Michael Harrell"`
+  - `"Jane Doe"`
   - `"Once upon a time and a very good time it was there was a moocow coming down along the road."`
 
 - **Integers** are whole numbers without quotation marks:
