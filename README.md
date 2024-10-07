@@ -8,8 +8,6 @@ Welcome to the CSAEA Sandbox, where you can use JupyterLab and Biner to practice
 
 Once you fire up the JupyterLab Binder, you’ll find an interactive coding environment waiting for you right in your browser. It might take a minute to get going—just let it do its thing.
 
----
-
 ## How to Use This Sandbox
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD)
@@ -25,10 +23,6 @@ It can take anywhere from a minute to a small eternity to load, so check out the
 - **[W3Schools Python Tutorial](https://www.w3schools.com/python/)**: An easy introduction to Python with plenty of examples.
 - **[Python Cheatsheet](https://www.pythoncheatsheet.org/)**: A concise but complete Python reference, perfect for quick look-ups.
 - **[Python Challenges](https://pythonprinciples.com/challenges/Capital-indexes/)**: A free list of Python challenges. 
-
-Sure! Here’s an additional section explaining how to fork the repository and use GitHub Codespaces for editing and saving work:
-
----
 
 ## How to Fork the Repository and Use Codespaces
 
