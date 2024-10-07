@@ -106,3 +106,4 @@ sine_value = math.sin(math.pi / 2)  # Returns 1.0
 factorial_value = math.factorial(5)  # Returns 120
 
 
+### More to come as we continue learning Python in class
