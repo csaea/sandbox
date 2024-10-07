@@ -73,8 +73,8 @@ Various mathematical operations using these common operators:
 - **Addition (`+`)**: `3 + 2` results in `5`
 - **Subtraction (`-`)**: `5 - 2` results in `3`
 - **Multiplication (`*`)**: `4 * 3` results in `12`
-- **Division (`/`)**:  `10 / 2` results in a float `5.0` 
-- **Floor Division (`//`)**: `10 // 3` results in floor (rounded down) division `3`
+- **Division (`/`)**:  `5 / 2` results in a float `2.5` 
+- **Floor (Rounded Down) Division (`//`)**: `5 // 2` results rounded down to `2`
 - **Modulus (`%`)**: `10 % 3` results in the remainder `1`
 - **Exponentiation (`**`)**: `2 ** 3` results in `8`
 
