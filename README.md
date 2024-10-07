@@ -4,7 +4,7 @@
 
 # The CSAEA Sandbox
 
-Welcome to the CSAEA Sandbox, where you can use JupyterLab and Binder to practice in-class, ephemeral coding. Think of it as a whiteboard, an experimental lab to explore without consequence. Binder will **not** save your work! What!? This is by design. 
+Welcome to the CSAEA Sandbox, where you can use JupyterLab and Binder to practice ephemeral (temporary) coding. Note that Binder will **not** save your work! This is by design. Think of it as a whiteboard, or an experimental lab, to exercise your skills without consequence. 
 
 Once you fire up the JupyterLab Binder, you’ll find an interactive coding environment waiting for you right in your browser. It might take a minute to get going—just let it do its thing.
 
