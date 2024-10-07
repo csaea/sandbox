@@ -50,7 +50,7 @@ print("This string is one argument")
 second_argument = "This is the second argument"
 print("This is the first argument", second_argument) # This print statement has two arguments, a string and a variable.
 
-max(1,5,3,2,2) # This function has five arguments. It would return the maximum, 5. 
+max(4,23,8,11,2) # This function has five arguments. It would return the maximum value, 23. 
 ```
 
 When you create (i.e., define) your own function, you can use any name that isn't already a built-in function, followed by `def`. For example:
