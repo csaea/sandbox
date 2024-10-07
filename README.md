@@ -4,7 +4,9 @@
 
 # The CSAEA Sandbox
 
-Welcome to the CSAEA Sandbox, where you can practice low-stakes, ephemeral coding, using JupyterLab and Binder. Note that it will **not** save your work. So think of it as a whiteboard, your personal coding lab, ready for experimentation. Once you fire up the JupyterLab Binder, you’ll find an interactive coding environment waiting for you right in your browser. It might take a minute to get going—just let it do its thing.
+Welcome to the CSAEA Sandbox, where you can use JupyterLab and Biner to practice temporary, ephemeral coding. In other words, Binder will **not** save your work! What!? This is by design. Think of it as a whiteboard, an experimental lab to explore without consequence. 
+
+Once you fire up the JupyterLab Binder, you’ll find an interactive coding environment waiting for you right in your browser. It might take a minute to get going—just let it do its thing.
 
 ---
 
@@ -12,7 +14,7 @@ Welcome to the CSAEA Sandbox, where you can practice low-stakes, ephemeral codin
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD)
 
-1. Hit the **Binder** badge to launch your JupyterLab workspace.
+1. Right click the **Binder** badge above and launch your JupyterLab workspace in a new tab or window. 
 2. Navigate through the folders to find lessons and resources.
 3. Dive into the content with the class, or at your own pace.
 
@@ -23,33 +25,6 @@ It can take anywhere from a minute to a small eternity to load, so check out the
 - **[W3Schools Python Tutorial](https://www.w3schools.com/python/)**: An easy introduction to Python with plenty of examples.
 - **[Python Cheatsheet](https://www.pythoncheatsheet.org/)**: A concise but complete Python reference, perfect for quick look-ups.
 - **[Python Challenges](https://pythonprinciples.com/challenges/Capital-indexes/)**: A free list of Python challenges. 
-
----
-
-## File Structure
-
-```
-/lessons
-    ├── computer_science_principles
-    ├── computer_science_a
-    └── advanced_topics
-```
-
-### Descriptions
-
-- **Computer Science Principles**: Lessons for those getting their feet wet in computer science, especially if you’re gearing up for AP CSP.
-- **Computer Science A**: Focused on coding and problem-solving for those tackling AP CSA.
-- **Advanced Topics**: Deep dives into heavier concepts like algorithms, data structures, and more.
-
-## Lesson Folders
-
-Within each lesson, you'll find a mix of resources:
-
-- **🎯 Activities Zone**: Exercises to sharpen your skills.
-- **🎮 Game Room**: Games that make learning a little more fun.
-- **🛠️ Toolbox**: Tools and platforms to enhance your work.
-- **📝 Challenge Corner**: Extra challenges for those who want to push further.
-- **📚 Resource Library**: Articles, videos, and guides to deepen your understanding.
 
 ## What is JupyterLab?
 
