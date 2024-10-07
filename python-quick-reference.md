@@ -30,21 +30,27 @@ Each of these examples includes a variable, the assignment operator (`=`), and i
 
 ### Functions
 
-Functions always have parentheses immediately after their names. Python includes many built-in functions, such as:
+Functions always have parentheses immediately after their names. Python includes many built-in functions. Here are some common ones:
 
-- `print()`: Prints whatever is inside the parentheses to the console.
-- `input()`: Takes user input.
-- `int()`, `str()`, `float()`: Converts the argument to the specified data type.
-- `max()`, `min()`: Returns the maximum or minimum value from a list.
+- `print()`: Prints to the console (but does not return anything).
+- `input()`: Accepts user input.
+- `int()`, `str()`, `float()`: Converts to data type.
+- `max()`, `min()`: Returns maximum or minimum value from a list.
 - `len()`: Returns the length of a string or list.
 - `list()`: Converts an iterable to a list.
 - `range()`: Returns a sequence of numbers.
 - `enumerate()`: Returns both the index and the value of items in an iterable.
+- `keys()`, `values()`: Returns the key or value of a dictionary entry.
 
-Whatever goes inside the parentheses is called an **argument**. For example:
+Whatever goes inside the parentheses is called an **argument**. Multiple arguments are separated by a comma:
 
 ```python
-print("This string is an argument")
+print("This string is one argument")
+
+second_argument = "This is the second argument"
+print("This is the first argument", second_argument) # This print statement has two arguments, a string and a variable.
+
+max(1,5,3,2,2) # This function has five arguments. It would return the maximum, 5. 
 ```
 
 When you create (i.e., define) your own function, you can use any name that isn't already a built-in function, followed by `def`. For example:
