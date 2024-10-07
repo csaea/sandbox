@@ -1,4 +1,4 @@
-**Python Concepts and Commands Covered in Class**
+# **Quick Reference Python Concepts and Commands**
 
 ### Data Types
 
