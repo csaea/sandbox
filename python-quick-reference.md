@@ -68,7 +68,7 @@ def calculate_bmi():
 
 ### Math Operators
 
-Various mathematical operations using these common operators:
+Various mathematical operations use these common operators:
 
 - **Addition (`+`)**: `3 + 2` results in `5`
 - **Subtraction (`-`)**: `5 - 2` results in `3`
@@ -105,5 +105,40 @@ square_root = math.sqrt(25)  # Returns 5.0
 sine_value = math.sin(math.pi / 2)  # Returns 1.0
 factorial_value = math.factorial(5)  # Returns 120
 
+```
+### String Manipulation 
+
+**String Contatenation**
+
+**String Splicing** 
+
+```python
+string = "abcdefghijklmnopqrstuvwxyz"
+
+substring = string[11:16]  # Returns "lmnop"
+substring2 = string[:4]      # Returns "abcd"
+substring3 = string[22:]     # Returns "wxyz"
+substring4 = string[-3:]     # Returns "xyz"
+
+substring5 = string[::2]     # Returns "acegikmoqsuwy" (every second character)
+substring6 = string[::-1]    # Returns "zyxwvutsrqponmlkjihgfedcba" (reversed string)
+substring7 = string[1:8:2]   # Returns "bdfh" (every second character from index 1 to 7)
+
+
+
+```
+
+
+**String Functions** 
+
+Various functions used to manipulate strings. Look up documentation for various uses and options. 
+
+- `capitalize()`: Capitalizes word in string.
+- `count()`: Counts occurance.
+- `lower()`: Converts entire string to lowercase.
+- `upper()`: Converts entire string to uppercase.
+- `len()`: Returns integer of the length of a string. 
+- `find()`: Returns integer of index location of a searched substring. 
+- `replace()`: Returns a sequence of numbers.
 
 ### More to come as we continue learning Python in class
