@@ -108,24 +108,43 @@ factorial_value = math.factorial(5)  # Returns 120
 ```
 ### String Manipulation 
 
-**String Contatenation**
+**String Concatenation**
+
+Concatenate strings with a plus sign. 
+
+```python
+string1 = "Hello"
+string2 = "World"
+
+print(string1 + " " + string2 + "!") # Prints Hello World! 
+```
+
+Note that the plus sign does not add strings together, even if they are numbers. 
+
+```python
+#integer datatype:
+2 + 2 + 6 = 10
+
+#string data type: 
+'2' + '2' + '6' => 226
+'two' + 'two' + 'six' => twotwosix
+```
 
 **String Splicing** 
+
+String splicing uses bracks, and the start and end index to cut up (slice) strings. 
 
 ```python
 string = "abcdefghijklmnopqrstuvwxyz"
 
-substring = string[11:16]  # Returns "lmnop"
-substring2 = string[:4]      # Returns "abcd"
-substring3 = string[22:]     # Returns "wxyz"
-substring4 = string[-3:]     # Returns "xyz"
+substring = string[11:16]   # => "lmnop"
+substring2 = string[:4]     # => "abcd"
+substring3 = string[22:]    # => "wxyz"
+substring4 = string[-3:]    # => "xyz"
 
-substring5 = string[::2]     # Returns "acegikmoqsuwy" (every second character)
-substring6 = string[::-1]    # Returns "zyxwvutsrqponmlkjihgfedcba" (reversed string)
-substring7 = string[1:8:2]   # Returns "bdfh" (every second character from index 1 to 7)
-
-
-
+substring5 = string[::2]    # => "acegikmoqsuwy" (every second character)
+substring6 = string[::-1]   # => "zyxwvutsrqponmlkjihgfedcba" (reversed string)
+substring7 = string[1:8:2]  # => "bdfh" (every second character from index 1 to 7)
 ```
 
 
