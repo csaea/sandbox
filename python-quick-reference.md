@@ -56,13 +56,10 @@ max(4,23,8,11,2) # This function has five arguments. It would return the maximum
 When you create (i.e., define) your own function, you can use any name that isn't already a built-in function, followed by `def`. For example:
 
 ```python
-def add_two_numbers(x,y):
+def my_add_function(x,y):
     print(x + y) 
 
-add_two_numbers(4,6) # prints 10
-
-def calculate_bmi(): 
-    # code to calculate body mass index goes here
+my_add_function(4,6) # Prints 10
 
 ```
 
@@ -116,7 +113,9 @@ Concatenate strings with a plus sign.
 string1 = "Hello"
 string2 = "World"
 
-print(string1 + " " + string2 + "!") # Prints Hello World! 
+print(string1 + " " + string2 + "!")
+
+# Prints Hello World! 
 ```
 
 Note that the plus sign does not add strings together, even if they are numbers. 
@@ -126,8 +125,8 @@ Note that the plus sign does not add strings together, even if they are numbers.
 2 + 2 + 6 = 10
 
 #string data type: 
-'2' + '2' + '6' => 226
-'two' + 'two' + 'six' => twotwosix
+'2' + '2' + '6' = 226
+'two' + 'two' + 'six' = twotwosix
 ```
 
 **String Splicing** 
