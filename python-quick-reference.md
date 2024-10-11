@@ -105,6 +105,19 @@ factorial_value = math.factorial(5)  # Returns 120
 ```
 ### String Manipulation 
 
+**f-string Formatting**
+
+Add the letter 'f' right before a string to let it take in dynamic variables, enclosed in braces {}. 
+
+```python
+food = "taco"
+price = 5
+
+## enclose your variable within the {} to display value
+print(f"This {food} costs {price} dollars!?")
+# Returns => This taco costs 5 dollars!?
+```
+
 **String Concatenation**
 
 Concatenate strings with a plus sign. 
