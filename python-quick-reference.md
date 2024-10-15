@@ -1,6 +1,6 @@
 # **Quick Reference Python Concepts and Commands**
 
-### Data Types
+## Data Types
 
 Three common data types are strings, integers, and floats.
 
@@ -15,7 +15,11 @@ Three common data types are strings, integers, and floats.
 - **Floats** are decimal numbers:
   - `3.4`, `5.34543`, `94948.2984758920`
 
-### Variables
+- **Booleans** are True/False values:
+  - True == 1, False == 0, True != 1, True > False
+
+
+## Variables
 
 Variables store information for you to use repeatedly. To define a variable, use an `=` sign to assign a value:
 
@@ -28,7 +32,7 @@ weight = 324.2
 
 Each of these examples includes a variable, the assignment operator (`=`), and its value. Together, they form an expression.
 
-### Functions
+## Functions
 
 Functions always have parentheses immediately after their names. Python includes many built-in functions. Here are some common ones:
 
@@ -63,7 +67,7 @@ my_add_function(4,6) # Prints 10
 
 ```
 
-### Math Operators
+## Math Operators
 
 Various mathematical operations use these common operators:
 
@@ -103,7 +107,7 @@ sine_value = math.sin(math.pi / 2)  # Returns 1.0
 factorial_value = math.factorial(5)  # Returns 120
 
 ```
-### String Manipulation 
+## String Manipulation 
 
 **f-string Formatting**
 
@@ -173,3 +177,28 @@ Various functions used to manipulate strings. Look up documentation for various 
 - `replace()`: Returns a sequence of numbers.
 
 ### More to come as we continue learning Python in class
+
+
+
+## Namespacing
+
+# Built-in namespace example:
+print("Hello, world!")  # Built-in function
+
+# Global namespace:
+z = "Global variable"
+
+def outer():
+    # Enclosing namespace:
+    a = "Enclosing variable"
+
+    def inner():
+        # Local namespace:
+        b = "Local variable"
+        print(b)  # Local
+        print(a)  # Enclosing
+        print(z)  # Global
+
+    inner()
+
+outer()
