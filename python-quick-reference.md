@@ -176,6 +176,27 @@ Various functions used to manipulate strings. Look up documentation for various 
 - `find()`: Returns integer of index location of a searched substring. 
 - `replace()`: Returns a sequence of numbers.
 
+## Boolean Operators
+
+**Comparison Operators**
+
+- `==`: Equal to  
+- `!=`: Not equal to  
+- `>`: Greater than  
+- `<`: Less than  
+- `>=`: Greater than or equal to  
+- `<=`: Less than or equal to
+
+**Logical Operators**
+
+- `and`: Returns `True` if both operands are true. Example: `x and y`
+- `or`: Returns `True` if at least one operand is true. Example: `x or y`
+- `not`: Returns `True` if the operand is false. Example: `not x`
+- `in`: Checks if a value exists within an iterable (like a string or list). Example: `x in list`
+- `is`: Compares the identity of two objects. Example: `x is y`
+
+
+
 ### More to come as we continue learning Python in class
 
 
