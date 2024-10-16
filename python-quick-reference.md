@@ -57,7 +57,7 @@ print("This is the first argument", second_argument) # This print statement has 
 max(4,23,8,11,2) # This function has five arguments. It would return the maximum value, 23. 
 ```
 
-When you create (i.e., define) your own function, you can use any name that isn't already a built-in function, followed by `def`. For example:
+When you create (i.e., define) your own function, you can use any name that isn't already a built-in function, followed by `def` for "define". For example:
 
 ```python
 def my_add_function(x,y):
@@ -79,9 +79,9 @@ Various mathematical operations use these common operators:
 - **Modulus (`%`)**: `10 % 3` results in the remainder `1`
 - **Exponentiation (`**`)**: `2 ** 3` results in `8`
 
-And don't forget built-in libraries.
+And don't forget built-in libraries!
 
-- **Random**: import a PRNG (pseudorandom number generator) library of many built-in functions.
+- **Random Library**: imports a PRNG (pseudorandom number generator) library of many built-in functions.
 
 ```python
 import random
@@ -109,9 +109,9 @@ factorial_value = math.factorial(5)  # Returns 120
 ```
 ## String Manipulation 
 
-**f-string Formatting**
+### f-string Formatting 
 
-Add the letter 'f' right before a string to let it take in dynamic variables, enclosed in braces {}. 
+F-strings are "formatted strings". Add the letter 'f' right before a string to let it take in dynamic variables or expressions, enclosed in braces {}. 
 
 ```python
 food = "taco"
@@ -122,7 +122,7 @@ print(f"This {food} costs {price} dollars!?")
 # Returns => This taco costs 5 dollars!?
 ```
 
-**String Concatenation**
+### String Concatenation
 
 Concatenate strings with a plus sign. 
 
@@ -146,7 +146,7 @@ Note that the plus sign does not add strings together, even if they are numbers.
 'two' + 'two' + 'six' = twotwosix
 ```
 
-**String Splicing** 
+### String Splicing 
 
 String splicing uses bracks, and the start and end index to cut up (slice) strings. 
 
@@ -163,8 +163,7 @@ substring6 = string[::-1]   # => "zyxwvutsrqponmlkjihgfedcba" (reversed string)
 substring7 = string[1:8:2]  # => "bdfh" (every second character from index 1 to 7)
 ```
 
-
-**String Functions** 
+### String Functions
 
 Various functions used to manipulate strings. Look up documentation for various uses and options. 
 
@@ -178,7 +177,7 @@ Various functions used to manipulate strings. Look up documentation for various 
 
 ## Boolean Operators
 
-**Comparison Operators**
+### Comparison Operators
 
 - `==`: Equal to  
 - `!=`: Not equal to  
@@ -187,7 +186,7 @@ Various functions used to manipulate strings. Look up documentation for various 
 - `>=`: Greater than or equal to  
 - `<=`: Less than or equal to
 
-**Logical Operators**
+### Logical Operators
 
 - `and`: Returns `True` if both operands are true. Example: `x and y`
 - `or`: Returns `True` if at least one operand is true. Example: `x or y`
@@ -200,25 +199,3 @@ Various functions used to manipulate strings. Look up documentation for various 
 ### More to come as we continue learning Python in class
 
 
-
-## Namespacing
-
-```python
-a = "Global variable"
-
-def outer():
-    # Enclosing namespace:
-    b = "Enclosing variable"
-
-    def inner():
-        # Local namespace:
-        c = "Local variable"
-
-        print(c)  # Local
-        print(b)  # Enclosing
-        print(a)  # Global
-
-    inner()
-
-outer()
-```
