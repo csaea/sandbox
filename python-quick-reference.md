@@ -32,9 +32,9 @@ weight = 324.2
 
 Each of these examples includes a variable, the assignment operator (`=`), and its value. Together, they form an expression.
 
-## Functions
+## Built-in Functions
 
-Functions always have parentheses immediately after their names. Python includes many built-in functions. Here are some common ones:
+Built-in Functions always have parentheses immediately after their names. Python includes many built-in functions. Their names are reserved keywords. Here are some common ones:
 
 - `print()`: Prints to the console (but does not return anything).
 - `input()`: Accepts user input.
@@ -182,23 +182,22 @@ Various functions used to manipulate strings. Look up documentation for various 
 
 ## Namespacing
 
-# Built-in namespace example:
-print("Hello, world!")  # Built-in function
-
-# Global namespace:
-z = "Global variable"
+```python
+a = "Global variable"
 
 def outer():
     # Enclosing namespace:
-    a = "Enclosing variable"
+    b = "Enclosing variable"
 
     def inner():
         # Local namespace:
-        b = "Local variable"
-        print(b)  # Local
-        print(a)  # Enclosing
-        print(z)  # Global
+        c = "Local variable"
+
+        print(c)  # Local
+        print(b)  # Enclosing
+        print(a)  # Global
 
     inner()
 
 outer()
+```
