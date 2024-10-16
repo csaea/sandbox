@@ -1,4 +1,4 @@
-# **Quick Reference Python Concepts and Commands**
+# **Quick Reference Python**
 
 ## Data Types
 
