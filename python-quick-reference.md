@@ -1,4 +1,4 @@
-# **Quick Reference Python**
+# **Python Quick Reference**
 
 ## Data Types
 
