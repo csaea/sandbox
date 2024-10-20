@@ -41,9 +41,9 @@ Built-in Functions always have parentheses immediately after their names. Python
 - `int()`, `str()`, `float()`: Converts to data type.
 - `max()`, `min()`: Returns maximum or minimum value from a list.
 - `len()`: Returns the length of a string or list.
-- `list()`: Converts an iterable to a list.
 - `range()`: Returns a sequence of numbers.
 - `enumerate()`: Returns both the index and the value of items in an iterable.
+- `list()`: Converts an iterable to a list.
 - `keys()`, `values()`: Returns the key or value of a dictionary entry.
 
 Whatever goes inside the parentheses is called an **argument**. Multiple arguments are separated by a comma:
@@ -193,6 +193,64 @@ Various functions used to manipulate strings. Look up documentation for various 
 - `not`: Returns `True` if the operand is false. Example: `not x`
 - `in`: Checks if a value exists within an iterable (like a string or list). Example: `x in list`
 - `is`: Compares the identity of two objects. Example: `x is y`
+
+# Iteration 
+
+Iteration is when you repeat a set of instructions or steps multiple times, which helps you go through lists of items or perform tasks without writing the same code over and over again.
+
+## While Loops  
+
+Loops over iterable as long as a condition is True. Stops when the condition becomes False. 
+
+```python
+counter = 0
+
+while counter < 5:
+    counter += 1
+    
+print(counter)
+
+# The while loop will run until the condition is False (when counter is not less than 5 anymore).
+# Print statement returns 5 (not 4, since the loop increments before the condition fails).
+```
+
+## For Loops
+
+Loops over iterable for a set number of times..
+
+```python
+
+numbers = [1, 2, 3]
+
+for n in numbers:
+    print(n * 2)
+
+# The for loop will run until it reaches the end of the list, printing each number.
+# Print statement returns:
+# 2
+# 4
+# 6
+
+```
+
+**Using range()**
+
+It is common to use the range() built-in function to return the indexes of an iterable. 
+
+```python
+
+numbers = [1, 2, 3]
+
+for i in range(len(numbers)):
+    print(i)
+
+# The for loop will run until it reaches the end of the list, printing each index.
+# Print statement returns:
+# 0
+# 1
+# 2
+
+```
 
 
 
