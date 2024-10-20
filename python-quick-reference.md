@@ -1,5 +1,23 @@
 # **Python Quick Reference**
 
+## Table of Contents
+- [Data Types](#data-types)
+- [Variables](#variables)
+- [Built-in Functions](#built-in-functions)
+- [Math Operators](#math-operators)
+- [String Manipulation](#string-manipulation)
+  - [f-string Formatting](#f-string-formatting)
+  - [String Concatenation](#string-concatenation)
+  - [String Splicing](#string-splicing)
+  - [String Functions](#string-functions)
+- [Boolean Operators](#boolean-operators)
+  - [Comparison Operators](#comparison-operators)
+  - [Logical Operators](#logical-operators)
+- [Iteration](#iteration)
+  - [While Loops](#while-loops)
+  - [For Loops](#for-loops)
+  - [Using range()](#using-range)
+
 ## Data Types
 
 Three common data types are strings, integers, and floats.
@@ -72,13 +90,13 @@ custom_adder(4,6) # Prints 10
 
 Various mathematical operations use these common operators:
 
-- **Addition (`+`)**: `3 + 2` results in `5`
-- **Subtraction (`-`)**: `5 - 2` results in `3`
-- **Multiplication (`*`)**: `4 * 3` results in `12`
-- **Division (`/`)**:  `5 / 2` results in a float `2.5` 
-- **Floor (Rounded Down) Division (`//`)**: `5 // 2` results rounded down to `2`
-- **Modulus (`%`)**: `10 % 3` results in the remainder `1`
-- **Exponentiation (`**`)**: `2 ** 3` results in `8`
+`+`: Addition; 3 + 2 results in 5
+`-`: Subtraction; 5 - 2 results in 3
+`*`: Multiplication; 4 * 3 results in 12
+`/`: Division; 5 / 2 results in a float 2.5
+`//`: Floor (Rounded Down) Division; 5 // 2 results rounded down to 2
+`%`: Modulus; 10 % 3 results in the remainder 1
+`**`: Exponentiation; 2 ** 3 results in 8
 
 And don't forget built-in libraries!
 
