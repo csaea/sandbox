@@ -264,8 +264,7 @@ for i in range(len(numbers)):
 ```
 
 # Lists
-
-A list is a mutable (changeable) and iterable set of data, within brackets, separated by commas. 
+A list is a mutable (changeable) and iterable collection of data enclosed in square brackets, with elements separated by commas. Lists can contain items of different data types, including numbers, strings, and other lists.
 
 ```python
 sports = ["soccer", "volleyball", "baseball"]
@@ -277,9 +276,9 @@ for s in sports:
   print(s.capitalize())
 
 #Print statement displays:
-SOCCER
-VOLLEYBALL
-BASEBALL
+# SOCCER
+# VOLLEYBALL
+# BASEBALL
 ```
 
 ## List Functions 
