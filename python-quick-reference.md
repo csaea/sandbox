@@ -8,6 +8,7 @@
 - [String Manipulation](#string-manipulation)
 - [Boolean Operators](#boolean-operators)
 - [Iteration](#iteration)
+- [Lists](#lists)
 
 ## Data Types
 
