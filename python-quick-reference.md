@@ -262,6 +262,50 @@ for i in range(len(numbers)):
 
 ```
 
+# Lists
+
+A list is a mutable (changeable) and iterable set of data, within brackets, separated by commas. 
+
+```python
+sports = ["soccer", "volleyball", "baseball"]
+
+print(sports[2]) 
+# Displays baseball, which is located at index 3
+
+for s in sports:
+  print(s.capitalize())
+
+#Print statement displays:
+SOCCER
+VOLLEYBALL
+BASEBALL
+```
+
+## List Functions 
+
+- **`append(value)`**: Adds value to the end of list.  
+  Example: `sports.append("basketball")`
+- **`pop(index)`**: Removes and returns value at last (or specified) index. 
+  Example: `last_sport = sports.pop()`  
+- **`sort()`**: Sorts the list in ascending order (modifies the list in place).  
+  Example: `sports.sort()`  
+- **`reverse()`**: Reverses the order of the list in place.  
+  Example: `sports.reverse()`  
+- **`count(value)`**: Returns the number of times a specified value appears in the list.  
+  Example: `count_volleyball = sports.count("volleyball")`
+- **`insert(index, value)`**: Inserts a value at a specified index.  
+  Example: `sports.insert(1, "tennis")`    
+- **`index(value)`**: Returns the index of the first occurrence of a specified value.  
+  Example: `volleyball_index = sports.index("volleyball")`  
+
+## List Comprehension
+
+Create a new list by applying an expression to each item in an iterable.
+
+```pythong
+squared_numbers = [n ** 2 for n in range(5)]  # Creates a list of squares: [0, 1, 4, 9, 16]
+```
+
 
 
 ### More to come as we continue learning Python in class
