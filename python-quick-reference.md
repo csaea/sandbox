@@ -6,17 +6,8 @@
 - [Built-in Functions](#built-in-functions)
 - [Math Operators](#math-operators)
 - [String Manipulation](#string-manipulation)
-  - [f-string Formatting](#f-string-formatting)
-  - [String Concatenation](#string-concatenation)
-  - [String Splicing](#string-splicing)
-  - [String Functions](#string-functions)
 - [Boolean Operators](#boolean-operators)
-  - [Comparison Operators](#comparison-operators)
-  - [Logical Operators](#logical-operators)
 - [Iteration](#iteration)
-  - [While Loops](#while-loops)
-  - [For Loops](#for-loops)
-  - [Using range()](#using-range)
 
 ## Data Types
 
