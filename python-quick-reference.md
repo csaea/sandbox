@@ -49,22 +49,23 @@ Built-in Functions always have parentheses immediately after their names. Python
 Whatever goes inside the parentheses is called an **argument**. Multiple arguments are separated by a comma:
 
 ```python
-print("This string is one argument")
+length = len("Hello")  # One argument: a string.
+# Returns the length of the string, which is 5.
 
-second_argument = "This is the second argument"
-print("This is the first argument", second_argument) # This print statement has two arguments, a string and a variable.
+print("Value:", 42)  # Two arguments: a string and a number.
+# Displays "Value: 42" on the screen.
 
-max(4,23,8,11,2) # This function has five arguments. It would return the maximum value, 23. 
+largest = max(4, 23, 8, 11, 2)  # Five arguments: a list of numbers.
+# Returns the maximum value, which is 23.
 ```
 
-When you create (i.e., define) your own function, you can use any name that isn't already a built-in function, followed by `def` for "define". For example:
+When you create (i.e., define) a custom function, you can use any name that isn't already a built-in function, followed by `def` for "define". For example:
 
 ```python
-def my_add_function(x,y):
+def custom_adder(x,y):
     print(x + y) 
 
-my_add_function(4,6) # Prints 10
-
+custom_adder(4,6) # Prints 10
 ```
 
 ## Math Operators
