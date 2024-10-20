@@ -1,5 +1,7 @@
 # **Python Quick Reference**
 
+Quick reference for Python fundamentals.
+
 ## Table of Contents
 - [Data Types](#data-types)
 - [Variables](#variables)
@@ -263,46 +265,54 @@ for i in range(len(numbers)):
 
 ```
 
-# Lists
+### Lists
 A list is a mutable (changeable) and iterable collection of data enclosed in square brackets, with elements separated by commas. Lists can contain items of different data types, including numbers, strings, and other lists.
 
 ```python
-sports = ["soccer", "volleyball", "baseball"]
+letters = ["a", "z", "d"]
 
-print(sports[2]) 
-# Displays baseball, which is located at index 3
+print(letters[2]) 
+# Displays "d", which is located at index 2
 
-for s in sports:
-  print(s.capitalize())
+for letter in letters:
+    print(letter.upper())
 
-#Print statement displays:
-# SOCCER
-# VOLLEYBALL
-# BASEBALL
+# Print statement displays letters in uppercase:
+# A
+# Z
+# D
+
+# Appending "m" to the list
+letters.append("m")
+# The list now becomes: ["a", "z", "d", "m"]
 ```
 
 ## List Functions 
 
-- **`append(value)`**: Adds value to the end of list.  
-  Example: `sports.append("basketball")`
-- **`pop(index)`**: Removes and returns value at last (or specified) index. 
-  Example: `last_sport = sports.pop()`  
+- **`append(value)`**: Adds a value to the end of the list.  
+  Example: `letters.append("m")`  
+  Returns: `None` (the list now becomes `["a", "z", "d", "m"]`)
+- **`pop(index)`**: Removes and returns the value at the last (or specified) index.  
+  Example: `last_letter = letters.pop()`  
+  Returns: `"m"` (if called after the previous example, the list now becomes `["a", "z", "d"]`)
 - **`sort()`**: Sorts the list in ascending order (modifies the list in place).  
-  Example: `sports.sort()`  
+  Example: `letters.sort()`  
+  Returns: `None` (the list now becomes `["a", "d", "z"]`)
 - **`reverse()`**: Reverses the order of the list in place.  
-  Example: `sports.reverse()`  
-- **`count(value)`**: Returns the number of times a specified value appears in the list.  
-  Example: `count_volleyball = sports.count("volleyball")`
+  Example: `letters.reverse()`  
+  Returns: `None` (the list now becomes `["z", "d", "a"]`)
 - **`insert(index, value)`**: Inserts a value at a specified index.  
-  Example: `sports.insert(1, "tennis")`    
+  Example: `letters.insert(1, "b")`  
+  Returns: `None` (the list now becomes `["a", "b", "z", "d"]`)
 - **`index(value)`**: Returns the index of the first occurrence of a specified value.  
-  Example: `volleyball_index = sports.index("volleyball")`  
+  Example: `z_index = letters.index("z")`  
+  Returns: `1`
 
 ## List Comprehension
 
-Create a new list by applying an expression to each item in an iterable.
+Creates new list by applying an expression to each item in an iterable.
 
-```pythong
+```python
 squared_numbers = [n ** 2 for n in range(5)]  # Creates a list of squares: [0, 1, 4, 9, 16]
 ```
 
