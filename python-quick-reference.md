@@ -188,6 +188,8 @@ Various functions used to manipulate strings. Look up documentation for various 
 - `find()`: Returns integer of index location of a searched substring. 
 - `replace()`: Returns a sequence of numbers.
 
+Got it! Here are some common Boolean functions in that style:
+
 ## Boolean Operators
 
 ### Comparison Operators
@@ -207,7 +209,15 @@ Various functions used to manipulate strings. Look up documentation for various 
 - `in`: Checks if a value exists within an iterable (like a string or list). Example: `x in list`
 - `is`: Compares the identity of two objects. Example: `x is y`
 
-# Iteration 
+### Boolean Functions
+
+- `isdigit()`: Returns `True` if all characters in the string are digits. Example: `"1234".isdigit()`
+- `isalpha()`: Returns `True` if all characters in the string are alphabetic. Example: `"abcd".isalpha()`
+- `isalnum()`: Checks if all characters in a string are alphanumeric (letters and numbers).
+- `isupper()`: Returns `True` if all characters in the string are uppercase. Example: `"HELLO".isupper()`
+- `islower()`: Returns `True` if all characters in the string are lowercase. Example: `"hello".islower()`
+
+## Iteration 
 
 Iteration is when you repeat a set of instructions or steps multiple times, which helps you go through lists of items or perform tasks without writing the same code over and over again.
 
