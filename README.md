@@ -4,19 +4,20 @@
 
 # The CSAEA Sandbox
 
-Welcome to the CSAEA Sandbox, where you can use JupyterLab and Binder to code along in class or practice ephemeral (temporary) coding. Note that Binder will **not** save your work! This is by design. Think of it as a whiteboard or experimental lab -- to exercise your skills without consequence. 
+Welcome to the CSAEA Sandbox, where you can use JupyterLab and Binder to code along in class or practice ephemeral (temporary) coding. Note that Binder will **not** save your work! This is by design. Think of it as a whiteboard or experimental lab. You can create, read, update, and delete files any way you want, with no consequence! Experiment, play, and break things. 
 
-Once you fire up the JupyterLab Binder, you’ll find an interactive coding environment waiting for you right in your browser. It might take a minute to get going—just let it do its thing.
+Once you launch the JupyterLab Binder, it might take a while to get going — just let it do its thing.
 
 ## How to Use This Sandbox
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/csaea/my-first-binder/HEAD)
 
-1. Right click the **Binder** badge above and launch your JupyterLab workspace in a new tab or window. 
-2. Navigate through the folders to find lessons and resources.
-3. Dive into the content with the class, or at your own pace.
+1. Right click the **Binder** badge above and launch your JupyterLab workspace in a new tab or window.
+2. Wait! 
+3. After it launches, then you can navigate this repo as if it were your own.
+4. Dive into the content with the class, or at your own pace. Just remember it will disappear if you stop using it! 
 
-It can take anywhere from a minute to a small eternity to load, so check out these links!
+NOTE: It can take 1 to 10 minutes to load, so while you wait -- check out one of these links:
 
 - **[Official Python Documentation](https://docs.python.org/3/tutorial/index.html)**: Python, from the source. Ideal for anyone starting out.
 - **[Learn Python](https://www.learnpython.org/)**: Tutorials and exercises in one neat package.
