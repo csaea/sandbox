@@ -27,8 +27,8 @@ Three common data types are strings, integers, and floats.
 - **Floats** are decimal numbers:
   - `3.4`, `5.34543`, `94948.2984758920`
 
-- **Booleans** are True/False values:
-  - `True == 1`, `False == 0` 
+- **Booleans** are True/False values, capitalized:
+  - `True`, `False` 
 
 
 ## Variables
