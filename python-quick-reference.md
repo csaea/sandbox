@@ -33,7 +33,7 @@ Three common data types are strings, integers, and floats.
 
 ## Variables
 
-Variables store information for you to use repeatedly. To define a variable, use an `=` sign to assign a value:
+Variables store information for you to use repeatedly. To define a variable, use an `=` sign.
 
 ```python
 my_variable = some_value
@@ -42,23 +42,24 @@ name = "Heavy Robot"
 weight = 324.2
 ```
 
-Each of these examples includes a variable, the assignment operator (`=`), and its value. Together, they form an expression.
+Each example includes a **variable name** on the left, the **operator** (`=`), and its **value** on the right. Together, they form an **expression**.
 
-## Built-in Functions
+## Functions
 
-Built-in Functions always have parentheses immediately after their names. Python includes many built-in functions. Their names are reserved keywords. Here are some common ones:
+### Built-in Functions
+Functions always have parentheses immediately after their names. Python includes many **built-in functions**. Their names are reserved keywords. Here are some common ones:
 
-- `print()`: Prints to the console (but does not return anything).
-- `input()`: Accepts user input.
-- `int()`, `str()`, `float()`: Converts to data type.
-- `max()`, `min()`: Returns maximum or minimum value from a list.
-- `len()`: Returns the length of a string or list.
-- `range()`: Returns a sequence of numbers.
+- `print("x:",y)`: Prints to the console (but does not return anything).
+- `input("x")`: Accepts user input.
+- `max(x,y)`, `min(x,y)`: Returns maximum or minimum value from a list.
+- `len(x)`: Returns the length of a string or list.
+- `range(x)`: Returns a sequence of numbers.
 - `enumerate()`: Returns both the index and the value of items in an iterable.
+- `int()`, `str()`, `float()`: Converts to data type.
 - `list()`: Converts an iterable to a list.
 - `keys()`, `values()`: Returns the key or value of a dictionary entry.
 
-Whatever goes inside the parentheses is called an **argument**. Multiple arguments are separated by a comma:
+Some functions can take in many **arguments** (denoted by x, y, z). Any values that goes inside the parentheses is called an **argument**. Multiple arguments are separated by a comma:
 
 ```python
 length = len("Hello")  # One argument: a string.
@@ -70,7 +71,7 @@ print("Value:", 42)  # Two arguments: a string and a number.
 largest = max(4, 23, 8, 11, 2)  # Five arguments: a list of numbers.
 # Returns the maximum value, which is 23.
 ```
-
+### Custom Functions
 When you create (i.e., define) a custom function, you can use any name that isn't already a built-in function, followed by `def` for "define". For example:
 
 ```python
