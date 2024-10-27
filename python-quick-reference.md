@@ -286,7 +286,6 @@ print(letters[2])
 
 for letter in letters:
     print(letter.upper())
-
 # Print statement displays letters in uppercase:
 # A
 # Z
@@ -299,16 +298,16 @@ letters.append("m")
 
 ## List Functions 
 
-- **`append(value)`**: Adds a value to the end of the list.  
+- **`append()`**: Adds value to end of the list.  
   Example: `letters.append("m")`  
   Returns: `None` (the list now becomes `["a", "z", "d", "m"]`)
-- **`pop(index)`**: Removes and returns the value at the last (or specified) index.  
+- **`pop(index)`**: Removes and returns value at last (or specified) index.  
   Example: `last_letter = letters.pop()`  
-  Returns: `"m"` (if called after the previous example, the list now becomes `["a", "z", "d"]`)
+  Returns: `"m"` (previous list becomes `["a", "z", "d"]`)
 - **`sort()`**: Sorts the list in ascending order (modifies the list in place).  
   Example: `letters.sort()`  
   Returns: `None` (the list now becomes `["a", "d", "z"]`)
-- **`reverse()`**: Reverses the order of the list in place.  
+- **`reverse()`**: Reverses the order of the list in place.
   Example: `letters.reverse()`  
   Returns: `None` (the list now becomes `["z", "d", "a"]`)
 - **`insert(index, value)`**: Inserts a value at a specified index.  
