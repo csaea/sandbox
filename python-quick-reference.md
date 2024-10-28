@@ -58,6 +58,7 @@ Functions always have parentheses immediately after their names. Python includes
 - `int()`, `str()`, `float()`: Converts to data type.
 - `list()`: Converts an iterable to a list.
 - `keys()`, `values()`: Returns the key or value of a dictionary entry.
+- `ord()`: Returns Unicode/ASCII integer of character. 
 
 Some functions can take in many **arguments** (denoted by x, y, z). Any values that goes inside the parentheses is called an **argument**. Multiple arguments are separated by a comma:
 
@@ -229,13 +230,13 @@ Loops over iterable as long as a condition is True. Stops when the condition bec
 ```python
 counter = 0
 
-while counter < 5:
+while counter <= 5:
     counter += 1
     
 print(counter)
 
 # The while loop will run until the condition is False (when counter is not less than 5 anymore).
-# Print statement returns 5 (not 4, since the loop increments before the condition fails).
+# Print statement returns 5 (not 4, since the counter increments until the condition becomes False).
 ```
 
 ## For Loops
@@ -246,15 +247,14 @@ Loops over iterable for a set number of times..
 
 numbers = [1, 2, 3]
 
-for n in numbers:
-    print(n * 2)
+for i in range(len(numbers)):
+    print(f"Index: {i}, Value: {numbers[i]}")
 
-# The for loop will run until it reaches the end of the list, printing each number.
+# The for loop will run until it reaches the end of the list, printing each index and its corresponding value.
 # Print statement returns:
-# 2
-# 4
-# 6
-
+# Index: 0, Value: 1
+# Index: 1, Value: 2
+# Index: 2, Value: 3
 ```
 
 **Using range()**
@@ -262,7 +262,6 @@ for n in numbers:
 It is common to use the range() built-in function to return the indexes of an iterable. 
 
 ```python
-
 numbers = [1, 2, 3]
 
 for i in range(len(numbers)):
@@ -273,11 +272,10 @@ for i in range(len(numbers)):
 # 0
 # 1
 # 2
-
 ```
 
 ### Lists
-A list is a mutable (changeable) and iterable collection of data enclosed in square brackets, with elements separated by commas. Lists can contain items of different data types, including numbers, strings, and other lists.
+A list is a mutable (changeable), iterable collection of data enclosed in square brackets, with elements separated by commas. Lists can contain items of different data types, including numbers, strings, booleans, and even other lists.
 
 ```python
 letters = ["a", "z", "d"]
@@ -291,29 +289,25 @@ for letter in letters:
 # A
 # Z
 # D
-
-# Appending "m" to the list
-letters.append("m")
-# The list now becomes: ["a", "z", "d", "m"]
 ```
 
 ## List Functions 
 
 - **`append()`**: Adds value to end of the list.  
   Example: `letters.append("m")`  
-  Returns: `None` (the list now becomes `["a", "z", "d", "m"]`)
+  The list now becomes `["a", "z", "d", "m"]`
 - **`pop(index)`**: Removes and returns value at last (or specified) index.  
   Example: `last_letter = letters.pop()`  
   Returns: `"m"` (previous list becomes `["a", "z", "d"]`)
 - **`sort()`**: Sorts the list in ascending order (modifies the list in place).  
   Example: `letters.sort()`  
-  Returns: `None` (the list now becomes `["a", "d", "z"]`)
+  The list now becomes `["a", "d", "z"]`
 - **`reverse()`**: Reverses the order of the list in place.
   Example: `letters.reverse()`  
-  Returns: `None` (the list now becomes `["z", "d", "a"]`)
+  The list now becomes `["z", "d", "a"]`
 - **`insert(index, value)`**: Inserts a value at a specified index.  
   Example: `letters.insert(1, "b")`  
-  Returns: `None` (the list now becomes `["a", "b", "z", "d"]`)
+  The list now becomes `["a", "b", "z", "d"]`
 - **`index(value)`**: Returns the index of the first occurrence of a specified value.  
   Example: `z_index = letters.index("z")`  
   Returns: `1`
@@ -323,7 +317,11 @@ letters.append("m")
 Creates new list by applying an expression to each item in an iterable.
 
 ```python
+whole_numbers = [n for n in range(5)]  # Results in: [0, 1, 2, 3, 4]
+
 squared_numbers = [n ** 2 for n in range(5)]  # Creates a list of squares: [0, 1, 4, 9, 16]
+
+even_squares = [n ** 2 for n in range(10) if n % 2 == 0]  # Results in: [0, 4, 16, 36, 64]
 ```
 
 
