@@ -190,8 +190,6 @@ Various functions used to manipulate strings. Look up documentation for various 
 - `find()`: Returns integer of index location of a searched substring. 
 - `replace()`: Returns a sequence of numbers.
 
-Got it! Here are some common Boolean functions in that style:
-
 ## Boolean Operators
 
 ### Comparison Operators
