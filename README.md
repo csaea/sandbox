@@ -15,7 +15,8 @@ Once you launch the JupyterLab Binder, it might take a while to get going — ju
 1. Right click the **Binder** badge above and launch your JupyterLab workspace in a new tab or window.
 2. Wait! 
 3. After it launches, then you can navigate this repo as if it were your own.
-4. Dive into the content with the class, or at your own pace. Just remember it will disappear if you stop using it! 
+4. Dive into the content with the class, or at your own pace. Just remember it will disappear if you stop using it!
+5. If you need to install any libraries, use pip. Ex: ```pip install pandas```
 
 NOTE: It can take 1 to 10 minutes to load, so while you wait -- check out one of these links:
 
